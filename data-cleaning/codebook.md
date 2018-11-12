@@ -22,6 +22,87 @@ The complete dataset has 30 participants. Data from each participant was capture
 * melted.data: a tidy version of the full data. Includes only four columns: the subject ID (subject); the activity label (activity); the measure (measure); and the value of the measure (value).
 * final.data: a tidy dataset with the mean of each measure, for each subject and activity in the dataset.
 
+The following measures are extracted:
+1. tBodyAccMean-X
+2. tBodyAccMean-Y
+3. tBodyAccMean-Z
+4. tBodyAccStDev-X
+5. tBodyAccStDev-Y
+6. tBodyAccStDev-Z
+7. tGravityAccMean-X
+8. tGravityAccMean-Y
+9. tGravityAccMean-Z
+10. tGravityAccStDev-X
+11. tGravityAccStDev-Y
+12. tGravityAccStDev-Z
+13. tBodyAccJerkMean-X
+14. tBodyAccJerkMean-Y
+15. tBodyAccJerkMean-Z
+16. tBodyAccJerkStDev-X
+17. tBodyAccJerkStDev-Y
+18. tBodyAccJerkStDev-Z
+19. tBodyGyroMean-X
+20. tBodyGyroMean-Y
+21. tBodyGyroMean-Z
+22. tBodyGyroStDev-X
+23. tBodyGyroStDev-Y
+24. tBodyGyroStDev-Z
+25. tBodyGyroJerkMean-X
+26. tBodyGyroJerkMean-Y
+27. tBodyGyroJerkMean-Z
+28. tBodyGyroJerkStDev-X
+29. tBodyGyroJerkStDev-Y
+30. tBodyGyroJerkStDev-Z
+31. tBodyAccMagMean
+32. tBodyAccMagStDev
+33. tGravityAccMagMean
+34. tGravityAccMagStDev
+35. tBodyAccJerkMagMean
+36. tBodyAccJerkMagStDev
+37. tBodyGyroMagMean
+38. tBodyGyroMagStDev
+39. tBodyGyroJerkMagMean
+40. tBodyGyroJerkMagStDev
+41. fBodyAccMean-X
+42. fBodyAccMean-Y
+43. fBodyAccMean-Z
+44. fBodyAccStDev-X
+45. fBodyAccStDev-Y
+46. fBodyAccStDev-Z
+47. fBodyAccMeanFreq-X
+48. fBodyAccMeanFreq-Y
+49. fBodyAccMeanFreq-Z
+50. fBodyAccJerkMean-X
+51. fBodyAccJerkMean-Y
+52. fBodyAccJerkMean-Z
+53. fBodyAccJerkStDev-X
+54. fBodyAccJerkStDev-Y
+55. fBodyAccJerkStDev-Z
+56. fBodyAccJerkMeanFreq-X
+57. fBodyAccJerkMeanFreq-Y
+58. fBodyAccJerkMeanFreq-Z
+59. fBodyGyroMean-X
+60. fBodyGyroMean-Y
+61. fBodyGyroMean-Z
+62. fBodyGyroStDev-X
+63. fBodyGyroStDev-Y
+64. fBodyGyroStDev-Z
+65. fBodyGyroMeanFreq-X
+66. fBodyGyroMeanFreq-Y
+67. fBodyGyroMeanFreq-Z
+68. fBodyAccMagMean
+69. fBodyAccMagStDev
+70. fBodyAccMagMeanFreq
+71. fBodyBodyAccJerkMagMean
+72. fBodyBodyAccJerkMagStDev
+73. fBodyBodyAccJerkMagMeanFreq
+74. fBodyBodyGyroMagMean
+75. fBodyBodyGyroMagStDev
+76. fBodyBodyGyroMagMeanFreq
+77. fBodyBodyGyroJerkMagMean
+78. fBodyBodyGyroJerkMagStDev
+79. fBodyBodyGyroJerkMagMeanFreq
+
 ## Transformations
 The code checks first that the dataset is downloaded and unzipped to the working directory. If not it will perform these.
 
